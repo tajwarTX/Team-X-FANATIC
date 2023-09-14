@@ -1,5 +1,6 @@
 Engineering Documentation of Team X-FANATIC
 ====
+![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/b31183c0-bf05-435e-b183-3621233207f0)
 
 This repository is the collection of engineering materials pertains to xeir, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
 
