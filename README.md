@@ -15,8 +15,9 @@ This repository is the collection of engineering materials pertains to xeir, a s
 
 ## Introduction
 
-https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/e86745a6-8206-478b-9e85-8fa038e8d1a2
 
+
+                        ![main](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/7b4f3592-56d1-43f8-b076-30233011db86)
 
 
 _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
