@@ -25,6 +25,7 @@ This repository is the collection of engineering materials pertains to xeir, a s
 
 ----
 ## Introduction
+(img align="right" alt="Coding" width="400" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg")
 
   ![](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e)
 
