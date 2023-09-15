@@ -14,6 +14,7 @@ This repository is the collection of engineering materials pertains to xeir, a s
 ----
 
 ## Content
+<img align="right" alt="bleh" width="210" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
@@ -25,7 +26,6 @@ This repository is the collection of engineering materials pertains to xeir, a s
 
 ----
 ## Introduction
-<img align="right" alt="bleh" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 
 
 
