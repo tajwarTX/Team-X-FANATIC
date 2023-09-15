@@ -9,7 +9,7 @@ This repository is the collection of engineering materials pertains to xeir, a s
 ## Team Members:
 
 - Mahir Tajwar Chowdhury - email: <tajwar185@gmail.com>
-- Abrar Shahid - email: <abrarshahid@gmail.com>
+- Abrar Shahid - email: <abrarshahidrahik@gmail.com>
 
 ----
 
