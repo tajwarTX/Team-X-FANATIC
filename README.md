@@ -4,7 +4,6 @@ Documentation / Team X-FANATIC
 ![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/a765bea4-70ed-4f82-979a-b2137f6febfd)
 ### This repository is the collection of engineering materials pertains to PERANAUT, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
 ----
-<img align="right" alt="NAUT" width="270" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
 
 ## Team Members
 
@@ -12,6 +11,7 @@ Documentation / Team X-FANATIC
 - Abrar Shahid - email: <abrarshahidrahik@gmail.com>
 
 ----
+<img align="left" alt="NAUT" width="240" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
 
 ## Content
 
@@ -25,11 +25,9 @@ Documentation / Team X-FANATIC
 ----
   ## Introduction
 
-<img align="left" alt="bleh" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
+<img align="right" alt="bleh" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 
-  _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical 
-   components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
-
+The ATmega328-based Arduino Nano, a compact, feature-rich, and breadboard-friendly board, powers the robot and allows it to control all of its actuators and adapt to its surroundings. To see the red/green obstacles, it is employing the Huskylens. The robot's orientation is determined using an MPU6050 gyroscope and accelerometer sensor. The robot also has an ultrasonic sensor to count laps and detect barriers.
 
 
 
