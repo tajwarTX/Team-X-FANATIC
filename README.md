@@ -4,7 +4,7 @@ Documentation / Team X-FANATIC
 ![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/a765bea4-70ed-4f82-979a-b2137f6febfd)
 ### This repository is the collection of engineering materials pertains to PERANAUT, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
 ----
-<img align="right" alt="NAUT" width="300" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
+<img align="right" alt="NAUT" width="270" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
 
 ## Team Members
 
