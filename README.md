@@ -27,27 +27,18 @@ Documentation / Team X-FANATIC
 
 <img align="right" alt="bleh" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 
-The ATmega328-based Arduino Nano, a compact, feature-rich, and breadboard-friendly board, powers the robot and allows it to control all of its actuators and adapt to its surroundings. To see the red/green obstacles, it is employing the Huskylens. The robot's orientation is determined using an MPU6050 gyroscope and accelerometer sensor. The robot also has an ultrasonic sensor to count laps and detect barriers.
+# Program arrangement and Algorithm Planning
 
+When turning the robot for the first time, the chip initializes itself and sets up communication with the Huskylens and IMU sensor using the I2C protocol. The servo motor then centers itself once it is prepared and waits for the user to press the button. After that, the code is split into three main sections:
 
+### Part 1 - Determining the Run Direction:
 
-  # Program arrangement and Algorithm Planning
+The initial section chooses the direction in which the robot will run and In order to determine the direction of the run after it, the robot proceeds slowly through the first part and uses its sonar sensors. A high range of 70 cm from one of the sensors triggers the marking of the direction as either clockwise or anticlockwise.
 
-  The robot is running on an ESP32-based development board called the JRC board locally made in our country to run all the actuators and sense the environment. It is using the Huskylens 
-  to see the red/green obstacles as well as the corner lines (blue/orange). An MPU6050 gyroscope and accelerometer sensor are used to detect the orientation of the robot and count laps.
+### Part 2 - Clockwise/Anticlockwise Run:
+Using some Automatic calibration system, the robot runs on the track either in the clockwise direction or in the anti-clockwise direction. The calibration system is based on the ultrasonic sensors placed at three different angles of the robot and the MPU-6050 gyroscopic sensor which works to make the robot steer in a straight line parallel to the walls on both sides.
 
-  When the robot is first powered on with the battery, it initializes the chip and starts communicating with the Huskylens and IMU sensor. Once it is ready, the servo motor gets 
-  centered and it waits for the user to push the button. The code is then divided into three major parts - 
-
-### Part 1 - Detecting run direction:
-
-The first part determines the direction of the robot run. The robot moves slowly through the first straightforward section to ensure it can safely detect the direction of the run with its sonar sensors. Once it detects a large distance (>90cm) from one of the sensors, it marks the direction as “L” - clockwise, or “R”  - anti-clockwise accordingly.
-
-### Part 2 - Completing the run as fast as possible:
-
-In this part, we run a PID loop (1st round) or a proportional+obstacle avoiding code(2nd round) to complete the run as fast as possible. 
-
-### **Wall avoidance:**
+### Part 3 - Wall avoidance:
 
 In the first round, we only check the sonar on the inner wall side (based on the direction of run detected from Part 1) to run a PID (proportional, integral, derivative) code. The code tries to keep the robot at a fixed distance from the wall while slowing down the rear axle drive motor whenever a turn is initiated.
 To complete this part as fast as possible, we use smart algorithms to detect when the robot has just finished a turning section and is about to enter a straight section. The robot then spins the drive motor at maximum speed for a short period of time (40-50mS) to give the robot a great acceleration or “boost”.
