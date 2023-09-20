@@ -2,11 +2,11 @@ Documentation / Team X-FANATIC
 ----
 
 ![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/a765bea4-70ed-4f82-979a-b2137f6febfd)
-This repository is the collection of engineering materials pertains to PERANAUT, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
+### This repository is the collection of engineering materials pertains to PERANAUT, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
 ----
 <img align="right" alt="NAUT" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
-## Team Members:
 
+## Team Members
 
 - Mahir Tajwar Chowdhury - email: <tajwar185@gmail.com>
 - Abrar Shahid - email: <abrarshahidrahik@gmail.com>
@@ -14,7 +14,6 @@ This repository is the collection of engineering materials pertains to PERANAUT,
 ----
 
 ## Content
-<img align="right" alt="bleh" width="230" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 
 * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
 * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
@@ -25,20 +24,23 @@ This repository is the collection of engineering materials pertains to PERANAUT,
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. 
 
 ----
-## Introduction
+  ## Introduction
+
+<img align="left" alt="bleh" width="250" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
+
+  _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical 
+   components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
 
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
+  # Program arrangement and Algorithm Planning
 
+  The robot is running on an ESP32-based development board called the JRC board locally made in our country to run all the actuators and sense the environment. It is using the Huskylens 
+  to see the red/green obstacles as well as the corner lines (blue/orange). An MPU6050 gyroscope and accelerometer sensor are used to detect the orientation of the robot and count laps.
 
-
-# Program arrangement and Algorithm Planning
-
-The robot is running on an ESP32-based development board called the JRC board locally made in our country to run all the actuators and sense the environment. It is using the Huskylens to see the red/green obstacles as well as the corner lines (blue/orange). An MPU6050 gyroscope and accelerometer sensor are used to detect the orientation of the robot and count laps.
-
-When the robot is first powered on with the battery, it initializes the chip and starts communicating with the Huskylens and IMU sensor. Once it is ready, the servo motor gets centered and it waits for the user to push the button. The code is then divided into three major parts - 
+  When the robot is first powered on with the battery, it initializes the chip and starts communicating with the Huskylens and IMU sensor. Once it is ready, the servo motor gets 
+  centered and it waits for the user to push the button. The code is then divided into three major parts - 
 
 ### Part 1 - Detecting run direction:
 
