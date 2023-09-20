@@ -15,13 +15,12 @@ Documentation / Team X-FANATIC
 
 ## Content
 
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. 
+* `t-photos` contains team photos with all the members.
+* `v-photos` contains photos of the robot from different angles.
+* `video` contains all driving demonstrations of the robot (Drive link).
+* `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components present in the robot.
+* `src` contains the code of the robot for all control systems.
+* `other` contains other files and essential documents to prepare the robot for the competition.
 
 ----
   ## Introduction
