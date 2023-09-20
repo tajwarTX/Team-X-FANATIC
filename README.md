@@ -18,9 +18,9 @@ Documentation / Team X-FANATIC
 * `t-photos` contains team photos with all the members.
 * `v-photos` contains photos of the robot from different angles.
 * `video` contains all driving demonstrations of the robot (Drive link).
-* `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components present in the robot.
-* `src` contains the code of the robot for all control systems.
+* `src` contains the code of the robot for all control systems and drive units.
 * `other` contains other files and essential documents to prepare the robot for the competition.
+* `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components present in the robot.
 
 ----
   ## Introduction
