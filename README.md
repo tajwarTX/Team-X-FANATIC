@@ -11,7 +11,7 @@ Documentation / Team X-FANATIC
 - Abrar Shahid - email: <abrarshahidrahik@gmail.com>
 
 ----
-<img align="left" alt="NAUT" width="240" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
+<img align="left" alt="NAUT" width="260" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c826f894-4ba4-4ae7-a872-7e6bfae7c387">
 
 ## Content
 
