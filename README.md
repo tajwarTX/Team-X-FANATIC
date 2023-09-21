@@ -47,7 +47,7 @@ To keep track of the number of laps, ultrasonic sensors are used in the robot an
 
 ----
 
-# Program arrangement and Algorithm Planning
+# Algorithm Designing and Planning
 
 When turning the robot for the first time, the chip initializes itself and sets up communication with the Huskylens and IMU sensor using the I2C protocol. The servo motor then centers itself once it is prepared and waits for the user to press the button. After that, the code is split into some sections:
 
