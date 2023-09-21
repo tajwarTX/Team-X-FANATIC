@@ -1,7 +1,7 @@
 Documentation / PERANAUT / Team X-FANATIC
 ----
+![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c95aff3c-2e0b-4215-9a15-3e1359191f65)
 
-![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/a765bea4-70ed-4f82-979a-b2137f6febfd)
 ### This repository is the collection of engineering materials pertaining to PERANAUT, a self-driving vehicle model developed by Team X-FANATIC, participating in the 2023 WRO Future Engineers competition (National Round).
 ----
 
@@ -12,7 +12,7 @@ Having a team of two members with specialized expertise in different sectors whi
  
 >Abrar Shahid - Email: <abrarshahidrahik@gmail.com>
 
-
+----
 <img align="left" alt="NAUT" width="260" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/1cde1d49-0fbf-4b64-91f9-fa90e38e641f">
 
 ## Content
@@ -26,7 +26,7 @@ Having a team of two members with specialized expertise in different sectors whi
 
 ----
   ## Introduction / PERANAUT
-  <img align="right" alt="bleh" width="290" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
+  <img align="right" alt="bleh" width="290" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/44067f00-4899-4423-a721-315360c3bf8d">
 The ATmega328-based Arduino Nano, which is compact, complete, and breadboard-friendly, powers the robot and allows it to control all of its components and adjust it to its surrounding environment. The Huskylens is being used to see red and green obstructions. The robot's orientation is determined using an MPU6050 gyroscope and accelerometer sensor.
 To keep track of the number of laps, ultrasonic sensors are used in the robot and also to detect walls around it in the track.
 
@@ -51,27 +51,27 @@ To keep track of the number of laps, ultrasonic sensors are used in the robot an
 
 When turning the robot for the first time, the chip initializes itself and sets up communication with the Huskylens and IMU sensor using the I2C protocol. The servo motor then centers itself once it is prepared and waits for the user to press the button. After that, the code is split into some sections:
 
-### 1 - Determining the Run Direction:
+### Initial run:
 
 The initial section chooses the direction in which the robot will run, and In order to determine the direction of the run after it, the robot proceeds slowly through the first part and uses its sonar sensors. A high range of 70 cm from one of the sensors triggers the marking of the direction as either clockwise or anticlockwise.
 
-### 2 - Clockwise/Anticlockwise Run:
-Using some Automatic calibration system, the robot runs on the track either in the clockwise direction or in the anti-clockwise direction. The calibration system is based on the ultrasonic sensors placed at three different angles of the robot and the MPU-6050 gyroscopic sensor, which works to make the robot steer in a straight line parallel to the walls on both sides.
+### Clockwise/Anticlockwise Run:
+Using some automatic calibration system, the robot runs on the track either in the clockwise direction or in the anti-clockwise direction. The calibration system is based on the ultrasonic sensors placed at three different angles of the robot and the MPU-6050 gyroscopic sensor, which works to make the robot steer in a straight line parallel to the walls on both sides.
 
-### 3 - Wall avoidance:
+### Avoiding walls in the whole run:
 
 Based on the run direction identified in Part 1, we check the distance on both wall sides using an ultrasonic sensor in the first round to execute an auto-calibration code. The code slows down the front axle drive motor whenever a turn is initiated in an effort to keep the robot at a constant distance from the wall.
 We employ effective algorithms to find a straight segment and a turn segment in order to finish the run precisely. In order to make its run considerably more precise, the robot then temporarily slows down its drive motor.
 
-### **Obstacle avoidance:**
-
-The Arduino nano receives the object's color ID and location in the X and Y axes when the huskylens identifies an object or is available. After that, the robot pursues the obstruction at an offset. That is, it follows on the right side of red barriers and on the left side of green obstacles. The front wheel is then turned proportionately to the item's distance (determined by height) and location on the screen's horizontal dimension once it is within the range of the object.
-
-### Wall collision protection:
+### Tackling the closest wall problems:
 
 The robot rotates the servo in the other direction for a brief period of time if it detects a wall on any one of the sides in order to avoid colliding with the wall. It helps in the smooth run of the robot without any collusion in the wall.
 
-### 3 - Detecting the end of 3 laps:
+### Avoiding obstacles in the whole run:
+
+The Arduino nano receives the object's color ID and location in the X and Y axes when the huskylens identifies an object or is available. After that, the robot pursues the obstruction at an offset. That is, it follows on the right side of red barriers and on the left side of green obstacles. The front wheel is then turned proportionately to the item's distance (determined by height) and location on the screen's horizontal dimension once it is within the range of the object.
+
+### Determining the end of the laps:
 
 Integrating the rotational acceleration values on the Y-axis over time provides angular velocity information, which, when further integrated, yields the yaw angle of the robot. This approach allows the MPU6050 gyroscope sensor to determine the orientation of the robot in relation to the starting position, making it a valuable tool for navigation and orientation tasks. By integrating the rotational acceleration values on the Y axis over time and positioning the sensor so that the Y axis functions as the Z axis, the robot's gyroscope sensor, Mpu6050, can measure the yaw angle. By calibrating the initial position as zero during startup and incrementally tracking the yaw angle, the robot can accurately count laps based on predefined angle increments. Implementing a stop function after three laps are detected allows for autonomous lap counting and precise navigation, ensuring the robot can efficiently reach its designated endpoint and execute the stop command for a controlled termination of its mission.
 
