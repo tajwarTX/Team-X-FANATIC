@@ -26,7 +26,7 @@ Having a team of two members with specialized expertise in different sectors whi
 
 ----
   ## Introduction / PERANAUT
-  <img align="right" alt="bleh" width="305" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/44067f00-4899-4423-a721-315360c3bf8d">
+  <img align="right" alt="bleh" width="308" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/44067f00-4899-4423-a721-315360c3bf8d">
 The ATmega328-based Arduino Nano, which is compact, complete, and breadboard-friendly, powers the robot and allows it to control all of its components and adjust it to its surrounding environment. The Huskylens is being used to see red and green obstructions. The robot's orientation is determined using an MPU6050 gyroscope and accelerometer sensor.
 To keep track of the number of laps, ultrasonic sensors are used in the robot and also to detect walls around it in the track.
 
