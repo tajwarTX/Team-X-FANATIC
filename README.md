@@ -1,4 +1,4 @@
-Documentation / Team X-FANATIC
+Documentation / PERANAUT / Team X-FANATIC
 ----
 
 ![bg](https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/a765bea4-70ed-4f82-979a-b2137f6febfd)
@@ -8,9 +8,9 @@ Documentation / Team X-FANATIC
 
 ## Team Members
 Having a team of two members with specialized expertise in different sectors which gives us a significant advantage in the competition. Each of us can bring unique skills, perspectives, and knowledge to the table, which leads us to a more well-rounded and comprehensive approach to problem-solving or competition tasks.
-- Mahir Tajwar Chowdhury  - Email: <tajwar185@gmail.com>
+>Mahir Tajwar Chowdhury  - Email: <tajwar185@gmail.com>
  
-- Abrar Shahid - Email: <abrarshahidrahik@gmail.com>
+>Abrar Shahid - Email: <abrarshahidrahik@gmail.com>
 
 
 ----
@@ -26,7 +26,7 @@ Having a team of two members with specialized expertise in different sectors whi
 * `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components present in the robot.
 
 ----
-  ## Introduction
+  ## Introduction / PERANAUT
   <img align="right" alt="bleh" width="210" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/c2fe084c-ac93-4350-91d2-58cf4e58633e">
 The ATmega328-based Arduino Nano, which is compact, complete, and breadboard-friendly, powers the robot and allows it to control all of its components and adjust it to its surrounding environment. The Huskylens is being used to see red and green obstructions. The robot's orientation is determined using an MPU6050 gyroscope and accelerometer sensor.
 To keep track of the number of laps, ultrasonic sensors are used in the robot and also to detect walls around it in the track.
@@ -46,7 +46,7 @@ Using some Automatic calibration system, the robot runs on the track either in t
 
 ### Part 3 - Wall avoidance:
 
-In the first round, we only check the sonar on the inner wall side (based on the direction of run detected from Part 1) to run a PID (proportional, integral, derivative) code. The code tries to keep the robot at a fixed distance from the wall while slowing down the rear axle drive motor whenever a turn is initiated.
-To complete this part as fast as possible, we use smart algorithms to detect when the robot has just finished a turning section and is about to enter a straight section. The robot then spins the drive motor at maximum speed for a short period of time (40-50mS) to give the robot a great acceleration or “boost”.
+Based on the run direction identified in Part 1, we check the distance on both wall sides using an ultrasonic sensor in the first round to execute an auto-calibration code. The code slows down the front axle drive motor whenever a turn is initiated in an effort to keep the robot at a constant distance from the wall.
+We employ effective algorithms to find a straight segment and a turn segment in order to finish the run precisely. In order to make its run considerably more precise, the robot then temporarily slows down its drive motor.
 
 In the 2nd round, however, we decided to disable the boost and changed PID control to just P or proportional to keep the robot centered on the track, which is sufficient at the slow speed of the robot.
