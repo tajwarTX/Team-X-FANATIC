@@ -23,7 +23,7 @@ Having a team of two members with specialized expertise in different sectors whi
 * `models` contains all the version samples and photos of the robot Peranaut.
 * `src` contains all the code of the robot for all control systems and drive units.
 * `other (preparation of the robot)` contains other files and essential documents to prepare the robot for the competition.
-* `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components present in the robot.
+* `schemes` contains all the schematics of the custom circuit board and connections of all the electromechanical components.
 
 ----
   ## Introduction / PERANAUT
