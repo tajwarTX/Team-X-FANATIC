@@ -13,7 +13,7 @@ Having a team of two members with specialized expertise in different sectors whi
 >Abrar Shahid - Email: <abrarshahidrahik@gmail.com>
 
 ----
-<img align="left" alt="NAUT" width="310" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/1cde1d49-0fbf-4b64-91f9-fa90e38e641f">
+<img align="left" alt="NAUT" width="320" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/1cde1d49-0fbf-4b64-91f9-fa90e38e641f">
 
 ## Content
 
