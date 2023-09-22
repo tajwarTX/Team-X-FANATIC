@@ -37,12 +37,14 @@ To keep track of the number of laps, ultrasonic sensors are used in the robot an
 + Arduino Nano: Microcontroller based on the ATmega328
 + HC-SR04 Ultrasonic Sensors
 + MPU6050
-+ Huskylens: AI machine vision sensor
++ Huskylens: AI machine vision sensor + lens
 + TB6612FNG Motor Driver
 + 12V 1000 RPM DC Geared Motor
 + 35KG digital servo motor DS3235
 + 2x Lm2596 Buck Converter
-+ Capacitors 
++ Capacitors
++ lights
++ buttons
 + 3S LiPo battery
 
 ----
