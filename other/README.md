@@ -7,7 +7,7 @@
 
 <br/>
 
-- In the Arduino IDE, go to File > Preferences, and enter the following into the "Additional Board Manager URLs" field, and click OK:
+- After we open the code, in the Arduino IDE, go to Tools > Board > Arduino AVR Boards, and then select the Arduino Nano as we are using Nano as the main microcontroller for all the operation.
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 <br/>
 
-- Open the Arduino Boards Manager: Tools > Board > Boards Manager... and search for ESP32. Press install button for the "ESP32 by Espressif Systems".
+- Again Open the Arduino Tools section : Tools > Processor > and select ATmega328P (Old Bootloader)
 
 <br/>
 
@@ -24,15 +24,14 @@
 
 <br/>
 
-- Select the COM port, and open the sketch.
-
+- Change the COM port where the Arduino is connected through cables with the device.
 <br/>
 
 <img align="center" alt="NAUT" width="1000" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/cf25bf84-55b7-42f5-8e4c-53bb7dfeec4b">
 
 <br/>
 
-- Press the Upload button in the Arduino IDE. Wait a few seconds while the code compiles and uploads to your board. It should say "Done Uploading" if the upload completes successfully.
+- Within the Arduino IDE, click the Upload button. Allow the code to compile and upload to the board for a short while. If the upload is successful, "Done Uploading" should appear.
 
 <br/>
   
@@ -41,17 +40,17 @@
 
 
 <br/>
+- If not, the error message can be like this. Just follow the previous steps again and change the COM port, and the code will be uploaded in no time.
 
 <img align="center" alt="NAUT" width="1000" src="https://github.com/tajwarTX/Team-X-FANATIC/assets/136412241/01d1a2b9-0530-4b9a-9be3-afc013418cbe">
 
 <br/>
 
-- Now you can place the robot on the track, power it up, and wait until the front servo centers.
+- Place the robot on the track at this point, turn it on, and wait for the front servo to centre.
 
 <br/>
 
-- Press the button and it will start doing the laps.
-
+- Once you press the button, it will begin to complete the laps.
 
 
 
